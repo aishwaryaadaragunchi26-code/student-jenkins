@@ -21,8 +21,8 @@ def desplay_result(name, marks):
     print("Grade:", grade)
 
 
-name = char(sys.argv[1])
-marks = float(sys.argv[2])
+name = int(sys.argv[1])
+marks = int(sys.argv[2])
 
 if name == "":
     name = "Student"
