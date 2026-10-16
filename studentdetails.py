@@ -20,7 +20,9 @@ def desplay_result(name, marks):
     print("Marks:", marks)
     print("Grade:", grade)
 
-name = str(sys.argv[1])
+name = str
+
+name = float(sys.argv[1])
 marks = float(sys.argv[2])
 
 if name == "":
