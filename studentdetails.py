@@ -21,7 +21,7 @@ def desplay_result(name, marks):
     print("Grade:", grade)
 
 
-name = (sys.argv[1])
+name = sys.argv[1]
 marks = int(sys.argv[2])
 
 if name == "":
